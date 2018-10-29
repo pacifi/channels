@@ -24,7 +24,7 @@ def index(request):
         group_name,
         {
             'type': 'chat_message',
-            'message': "messagesssss"
+            'message': "mi mensaje"
         }
     )
     context = {}

@@ -4,6 +4,7 @@ import json
 
 
 class ChatConsumer(AsyncWebsocketConsumer):
+
     async def connect(self):
         self.room_name = "chat"
         self.room_group_name = 'chat_%s' % self.room_name
